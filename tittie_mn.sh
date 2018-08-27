@@ -10,7 +10,7 @@ COIN_TX='tittiecoin-tx'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/tittiecoin/tittiecoin-2-0/releases/download/v2.0/TittieCoin-2.0.0-x86_64-pc-linux-gnu.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='tittiecoin'
+COIN_NAME='TittieCoin'
 COIN_PORT=8007
 RPC_PORT=8008
 
