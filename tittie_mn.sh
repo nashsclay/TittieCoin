@@ -2,17 +2,17 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='shmn.conf'
-CONFIGFOLDER='/root/.shmn'
-COIN_DAEMON='shmnd'
-COIN_CLI='shmn-cli'
-COIN_TX='shmn-tx'
+CONFIG_FILE='tittiecoin.conf'
+CONFIGFOLDER='/root/.TittieCoin'
+COIN_DAEMON='tittiecoind'
+COIN_CLI='tittiecoin-cli'
+COIN_TX='tittiecoin-tx'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/bitcoinbabys/StrongHandsMasterNode/releases/download/v230/shmnd-v230-ubu64.zip'
+COIN_TGZ='https://github.com/tittiecoin/tittiecoin-2-0/releases/download/v2.0/TittieCoin-2.0.0-x86_64-pc-linux-gnu.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='shmn'
-COIN_PORT=50005
-RPC_PORT=50006
+COIN_NAME='tittiecoin'
+COIN_PORT=8007
+RPC_PORT=8008
 
 NODEIP=$(curl -s4 icanhazip.com)
 
