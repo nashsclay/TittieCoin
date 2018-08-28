@@ -3,7 +3,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='tittiecoin.conf'
-CONFIGFOLDER='/root/.TittieCoin'
+CONFIGFOLDER='/root/.tittiecoin'
 COIN_DAEMON='tittiecoind'
 COIN_CLI='tittiecoin-cli'
 COIN_TX='tittiecoin-tx'
